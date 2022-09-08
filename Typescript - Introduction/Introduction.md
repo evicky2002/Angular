@@ -1,0 +1,3 @@
+- Strongly typed
+- By Microsoft
+- Superset of JavaScript
