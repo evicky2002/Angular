@@ -24,3 +24,12 @@ function addRest(num1, num2, ...num3) {
 }
 let numbers = [3, 4, 5];
 console.log("Add rest :" + addRest(1, 2, ...numbers));
+console.log("Add rest :" + addRest(1, 2, 3, 5, 5, 6, 7, 7, 7, 7));
+//Generic Functions
+function getItems(items) {
+    return new Array().concat(items);
+}
+let concatNums = getItems([1, 2, 3, 4, 5]);
+let concatStrings = getItems(["hi ", "how's ", "it ", "hanging ", "?"]);
+console.log(concatNums);
+console.log(concatStrings);
